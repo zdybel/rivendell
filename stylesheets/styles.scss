@@ -60,3 +60,13 @@
 .downdrop{
 	display:inline-block;
 }
+.carousel-inner > .item > img,
+.carousel-inner > .item > a > img {
+    width: 70%;
+    margin: auto;
+}
+.link{
+	color: #000000;
+}
+
+
