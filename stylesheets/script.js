@@ -26,14 +26,31 @@ $(document).ready(function(){
 	
 	console.log("its a miracle");
 
+
+	$(".linkDwarves").hover(function(){
+	    $(".dwarves").css("background-color", "rgba(0,0,0,.5)");
+	    $(".dwarves").css("color", "#fefefe");
+	    }, function(){
+	    $(".dwarves").css("background-color", "#fefefe");
+	    $(".dwarves").css("color", "#000000")
+	});
+
+	$(".linkAragorn").hover(function(){
+	    $(".king").css("background-color", "rgba(0,0,0,.5)");
+	    $(".king").css("color", "#fefefe");
+	    }, function(){
+	    $(".king").css("background-color", "#fefefe");
+	    $(".king").css("color", "#000000")
+	});
+
 	firstPic();
 
 	function firstPic(){
-	 	$(".parallax").click(function(){
+	 	$(".side-scroll").click(function(){
 	 		console.log('worked');
 	 		$(".parallax").css("background-image","url('http://randomwallpapers.net/rivendell-waterfall-woods-forest-houses-architecture-2560x1600-wallpaper42307.jpg')");
 	 		function switchPic(){
-	 			$(".parallax").click(
+	 			$(".side-scroll").click(
 	 				function(){
 	 					console.log('worked again');
 	 					$(".parallax").css("background-image","url('http://i.imgur.com/CNeKLa2.jpg')");

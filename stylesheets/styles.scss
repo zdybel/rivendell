@@ -1,33 +1,42 @@
 
 
 .body-container{
+	font-family: 'Jim Nightshade', cursive;
 }
 
 .heading{
 	color: #fefefe;
-	margin-top: 620px;
+	margin-top: 150px;
 	margin-left: 95px;
 	text-align: center;
-	font-size: 70px;
+	font-size: 100px;
 	background-color: #000000;
 	background-color: rgba(0,0,0,0.5);
 }
 .down-menu{
-	margin-top: 750px;
+	margin-top: 220px;
 	color: #fefefe;
 	text-align: center;
 	font-size: 30px;
 	background-color: #000000;
 	background-color: rgba(0,0,0,0.5);
 }
+.side-scroll{
+	margin-top: 280px;
+	color: #fefefe;
+	text-align: center;
+	font-size: 30px;
+	background-color: #000000;
+	background-color: rgba(0,0,0,0.2);
+}
 .sub-heading{
-	font-size: 40px;
+	font-size: 60px;
 	margin-bottom: 160px;
 	display: inline-block;
 }
 .parallax { 
 	background-image: url("http://i.imgur.com/CNeKLa2.jpg");
-    height: 800px; 
+    height: 600px; 
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
@@ -42,20 +51,22 @@
 
 .dwarves{
 	width: 80%;
-	font-size: 20px;
+	font-size: 40px;
 }
 
 .icons{
 	margin: 250px auto;
 }
 .king{
-	font-size: 36px;
+	font-size: 48px;
 }
 .aragorn{
 	margin-top: 40px;
 }
 .paragraph{
 	border-bottom: solid black 1px;
+	font-size: 26px;
+	margin-bottom: 50px;
 }
 .downdrop{
 	display:inline-block;
@@ -65,8 +76,14 @@
     width: 70%;
     margin: auto;
 }
-.link{
+.linkDwarves{
+	color: #000000;
+	margin-top: 100px;
+}
+.linkAragorn{
 	color: #000000;
 }
+
+
 
 
